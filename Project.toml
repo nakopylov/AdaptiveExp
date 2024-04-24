@@ -1,0 +1,9 @@
+name = "AdaptiveExp"
+uuid = "c99f57d3-dfcd-4d1b-9545-869d380f27c4"
+authors = ["Nikita Kopylov <nikop1@upv.es>"]
+version = "0.1.0"
+
+[deps]
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SkewLinearAlgebra = "5c889d49-8c60-4500-9d10-5d3a22e2f4b9"

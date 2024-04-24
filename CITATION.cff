@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Efficient scaling and squaring method for the matrix exponential
+doi: arXiv:2404.12789
+message: If you use this software in your work, please cite it using the following metadata.
+date-released: 2024-04-19
+authors:
+  - given-names: Sergio
+    family-names: Blanes
+    affiliation: ''
+  - given-names: Nikita
+    family-names: Kopylov
+    affiliation: ''
+  - given-names: Muaz
+    family-names: Seydaoğlu
+    affiliation: ''
+abstract: This repository contains the source code of the paper Efficient scaling and squaring method for the matrix exponential by Sergio Blanes, Nikita Kopylov and Muaz Seydaoğlu, from Arxiv
+version: 1.0.0
