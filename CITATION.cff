@@ -1,6 +1,5 @@
 cff-version: 1.2.0
 title: "Efficient scaling and squaring method for the matrix exponential"
-doi: arXiv:2404.12789
 message: "If you use this software in your work, please cite it using the following metadata."
 date-released: 2024-04-19
 authors:
@@ -20,6 +19,7 @@ abstract: "This work presents a new algorithm to compute the matrix exponential 
 version: 0.1.0
 preferred-citation:
   type: article
+  title: "Efficient scaling and squaring method for the matrix exponential"
   authors:
   - given-names: "Sergio"
     family-names: "Blanes"
@@ -33,5 +33,4 @@ preferred-citation:
     family-names: "Seydaoğlu"
     affiliation: "Muş Alparslan University"
     orcid: "https://orcid.org/0000-0003-3211-0864"
-  doi: "arXiv:2404.12789"
   year: 2024
