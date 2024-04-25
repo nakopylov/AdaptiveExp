@@ -1,17 +1,37 @@
 cff-version: 1.2.0
-title: Efficient scaling and squaring method for the matrix exponential
+title: "Efficient scaling and squaring method for the matrix exponential"
 doi: arXiv:2404.12789
-message: If you use this software in your work, please cite it using the following metadata.
+message: "If you use this software in your work, please cite it using the following metadata."
 date-released: 2024-04-19
 authors:
-  - given-names: Sergio
-    family-names: Blanes
-    affiliation: ''
-  - given-names: Nikita
-    family-names: Kopylov
-    affiliation: ''
-  - given-names: Muaz
-    family-names: Seydaoğlu
-    affiliation: ''
-abstract: This repository contains the source code of the paper Efficient scaling and squaring method for the matrix exponential by Sergio Blanes, Nikita Kopylov and Muaz Seydaoğlu, from Arxiv
-version: 1.0.0
+- given-names: "Sergio"
+  family-names: "Blanes"
+  affiliation: "Universitat Politècnica de València"
+  orcid: "https://orcid.org/0000-0001-5819-8898"
+- given-names: "Nikita"
+  family-names: "Kopylov"
+  affiliation: "Universitat Politècnica de València"
+  orcid: "https://orcid.org/0000-0002-5557-0858"
+- given-names: "Muaz"
+  family-names: "Seydaoğlu"
+  affiliation: "Muş Alparslan University"
+  orcid: "https://orcid.org/0000-0003-3211-0864"
+abstract: "This work presents a new algorithm to compute the matrix exponential within a given tolerance. Combined with the scaling and squaring procedure, the algorithm incorporates Taylor, partitioned and classical Padé methods shown to be superior in performance to the approximants used in state-of-the-art software. The algorithm computes matrix--matrix products and also matrix inverses, but it can be implemented to avoid the computation of inverses, making it convenient for some problems. If the matrix A belongs to a Lie algebra, then exp(A) belongs to its associated Lie group, being a property which is preserved by diagonal Padé approximants, and the algorithm has another option to use only these. Numerical experiments show the superior performance with respect to state-of-the-art implementations."
+version: 0.1.0
+preferred-citation:
+  type: article
+  authors:
+  - given-names: "Sergio"
+    family-names: "Blanes"
+    affiliation: "Universitat Politècnica de València"
+    orcid: "https://orcid.org/0000-0001-5819-8898"
+  - given-names: "Nikita"
+    family-names: "Kopylov"
+    affiliation: "Universitat Politècnica de València"
+    orcid: "https://orcid.org/0000-0002-5557-0858"
+  - given-names: "Muaz"
+    family-names: "Seydaoğlu"
+    affiliation: "Muş Alparslan University"
+    orcid: "https://orcid.org/0000-0003-3211-0864"
+  doi: "arXiv:2404.12789"
+  year: 2024
