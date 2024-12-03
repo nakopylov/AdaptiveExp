@@ -11,7 +11,7 @@ This repository contains a Julia package to adaptively and efficiently compute m
 julia
 
 julia> ]
-(@v1.10) pkg> add https://github.com/nakopylov/AdaptiveExp
+(@v1.11) pkg> add https://github.com/nakopylov/AdaptiveExp
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ Then in Julia activate the (separate) environment in the `examples` directory of
 julia
 
 julia> ]
-(@v1.10) pkg> activate .
+(@v1.11) pkg> activate .
   Activating project at `~/AdaptiveExp/examples`
 
 (examples) pkg>
